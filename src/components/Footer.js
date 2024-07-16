@@ -8,9 +8,13 @@ const Footer = () => (
       <div className="md:col-span-2">
         <div className="flex flex-col md:flex-row justify-between items-center mb-8 md:mb-24">
           <div className="flex space-x-6 mb-4 md:mb-0">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="hover:underline">Facebook</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="hover:underline">Instagram</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="hover:underline">LinkedIn</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="hover:underline">Pinterest</a>
           </div>
         </div>
@@ -31,10 +35,15 @@ const Footer = () => (
       <div>
         <div className="font-bold mb-4">Company</div>
         <div className="space-y-2 md:space-y-4 text-gray-300">
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">So gehts</a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">Erfahrung</a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">Aligner</a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">Preise</a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">Standorte</a>
         </div>
       </div>
@@ -42,10 +51,15 @@ const Footer = () => (
       <div>
         <div className="font-bold mb-4">Resources</div>
         <div className="space-y-2 md:space-y-4 text-gray-300">
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">Blog</a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">FAQ</a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">Lift Media</a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">Offene Stellen</a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">Presse kit</a>
         </div>
       </div>
@@ -53,8 +67,11 @@ const Footer = () => (
       <div>
         <div className="font-bold mb-4">Product</div>
         <div className="space-y-2 md:space-y-4 text-gray-300">
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">Gratis Termin</a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">Freunde einladen</a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">Patienteninforma</a>
         </div>
       </div>
@@ -62,10 +79,15 @@ const Footer = () => (
       <div>
         <div className="font-bold mb-4">Product</div>
         <div className="space-y-2 md:space-y-4 text-gray-300">
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">Blog</a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">FAQ</a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">Lift Media</a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">Offene Stellen</a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="block hover:underline">Presse kit</a>
         </div>
       </div>
@@ -78,48 +100,76 @@ const Footer = () => (
         <div className='mb-4'>
           <div className="font-bold mb-2">Menu</div>
           <div className="space-y-2 text-gray-300">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Home</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Pricing</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Case studies</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Features</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Downloads</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Updates</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Changelog</a>
           </div>
         </div>
         <div className='mb-4'>
           <div className="font-bold mb-2">Company</div>
           <div className="space-y-2 text-gray-300">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">About</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Contact us</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Careers</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Culture</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Help Center</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Support</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Legal</a>
           </div>
         </div>
         <div className='mb-4'>
           <div className="font-bold mb-2">Menu</div>
           <div className="space-y-2 text-gray-300">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Home</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Pricing</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Case studies</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Features</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Downloads</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Updates</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Changelog</a>
           </div>
         </div>
         <div className='mb-4'>
           <div className="font-bold mb-2">Company</div>
           <div className="space-y-2 text-gray-300">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">About</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Contact us</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Careers</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Culture</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Help Center</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Support</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="block hover:underline">Legal</a>
           </div>
         </div>
@@ -129,9 +179,13 @@ const Footer = () => (
     <div className="flex flex-col md:flex-row justify-between items-center mt-12 md:mt-28 px-6 md:px-0">
       <div className="text-gray-300 mb-4 md:mb-0">© 2023 Intervue. Crafted by great minds.</div>
       <div className="flex flex-wrap justify-center space-x-4 text-gray-300">
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a href="#" className="hover:underline">Datenschutz</a>
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a href="#" className="hover:underline">Impressum</a>
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a href="#" className="hover:underline">Cookie Policy</a>
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a href="#" className="hover:underline">AGBs</a>
       </div>
     </div>

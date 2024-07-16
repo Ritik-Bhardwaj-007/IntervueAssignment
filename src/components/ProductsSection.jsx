@@ -21,6 +21,7 @@ const ProductsSection = () => {
         <p className="text-gray-500">
           Group head of talent acquisition, Yubi
         </p>
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a href="#" className="text-blue-500 mt-4 inline-block">
           See more customer stories &rarr;
         </a>
