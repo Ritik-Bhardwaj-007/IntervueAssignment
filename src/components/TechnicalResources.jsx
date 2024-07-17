@@ -1,7 +1,11 @@
 import React from 'react';
+import useWindowWidth from '../custumHooks/Usewindow';
 import ResourceList from './ResourceList';
 
 const TechnicalResources = () => {
+  const windowWidth = useWindowWidth();
+  const isMobile = windowWidth < 768;
+  const placeholderText = !isMobile ? '🔍 Search for resources here' : 'search skills, role, seniority';
   const resources = ["Easy", "Medium", "Hard", "Easy", "Medium", "Hard", "Easy", "Medium", "Hard", "Easy", "Medium", "Hard"];
 
   // Limit the number of resources to 3 for mobile screens
@@ -15,7 +19,7 @@ const TechnicalResources = () => {
         <input 
           type="text" 
           className="w-3/ h-14 text-lg px-4 py-2 mb-8 bg-gray-100 rounded-full border border-gray shadow-sm focus:outline-none focus:border-blue-500 md:w-1/2" 
-          placeholder="search skills, role, seniority" 
+          placeholder={placeholderText} 
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

@@ -2,10 +2,10 @@ import React from 'react';
 import Header from './components/Header';
 import TechnicalResources from './components/TechnicalResources';
 import SecuritySection from './components/SecuritySection';
-import FAQSection from './components/FAQSection';
 import Footer from './components/Footer';
 import ProductsSection from './components/ProductsSection';
 import ProductsDetail from './components/ProductsDetail';
+import FAQRender from './components/FAQRender';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <SecuritySection />
       <ProductsSection />
       <ProductsDetail/>
-      <FAQSection />
+      <FAQRender />
       <Footer />
     </div>
   );

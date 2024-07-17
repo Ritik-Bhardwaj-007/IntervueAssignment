@@ -1,12 +1,13 @@
 import React from 'react';
-
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
+const iconClass ='bg-gray-700 text-white p-2 rounded-lg text-2xl hover:bg-gray-600 transition-colors duration-200';
 const Footer = () => (
   <div className="bg-gray-800 text-white p-8 md:p-16 lg:p-24">
     <div className="text-5xl md:text-5xl text-center mb-10 md:mb-10 font-bold">Intervue</div>
     <div className="hidden lg:grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8">
       
       <div className="md:col-span-2">
-        <div className="flex flex-col md:flex-row justify-between items-center mb-8 md:mb-24">
+        <div className="flex flex-col md:flex-row justify-between items-center mr-6 mb-8 md:mb-24">
           <div className="flex space-x-6 mb-4 md:mb-0">
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="hover:underline">Facebook</a>
@@ -20,7 +21,7 @@ const Footer = () => (
         </div>
         
         <div className="mb-8">
-          <div className="text-yellow-500 font-bold text-lg md:text-xl mb-2">Hire better & faster</div>
+          <div className="text-yellow-500 font-bold text-lg mr-6 md:text-xl mb-2">Hire better & faster</div>
           <div className="flex flex-col md:flex-row">
             <input type="email" placeholder="Enter your email address" className="py-2 text-lg bg-gray-800 w-full md:w-3/4 border-b border-gray-700 rounded mb-4 md:mb-0 md:mr-2" />
             <button className="bg-gray-800 border-b border-gray-700 text-yellow-500 p-2 ml-0 md:ml-2">
@@ -32,7 +33,7 @@ const Footer = () => (
         </div>
       </div>
       
-      <div>
+      <div className='ml-14'>
         <div className="font-bold mb-4">Company</div>
         <div className="space-y-2 md:space-y-4 text-gray-300">
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
@@ -176,18 +177,39 @@ const Footer = () => (
       </div>
     </div>
     
-    <div className="flex flex-col md:flex-row justify-between items-center mt-12 md:mt-28 px-6 md:px-0">
-      <div className="text-gray-300 mb-4 md:mb-0">© 2023 Intervue. Crafted by great minds.</div>
-      <div className="flex flex-wrap justify-center space-x-4 text-gray-300">
-        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-        <a href="#" className="hover:underline">Datenschutz</a>
-        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-        <a href="#" className="hover:underline">Impressum</a>
-        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-        <a href="#" className="hover:underline">Cookie Policy</a>
-        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-        <a href="#" className="hover:underline">AGBs</a>
-      </div>
+    <div className="hidden md:flex flex-col md:flex-row justify-between items-center mt-12 mr-10 md:mt-28 px-4 md:px-0">
+  <div className="text-gray-300 text-sm mb-4 md:mb-0">© 2023 Intervue. Crafted by great minds.</div>
+  <div className="flex flex-wrap text-sm justify-center space-x-4 text-gray-300">
+    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+    <a href="#" className="hover:underline">Datenschutz</a>
+    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+    <a href="#" className="hover:underline">Impressum</a>
+    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+    <a href="#" className="hover:underline">Cookie Policy</a>
+    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+    <a href="#" className="hover:underline">AGBs</a>
+  </div>
+</div>
+<div className="flex flex-col lg:hidden md:hidden md:flex-row justify-between items-center mt-12 md:mt-28 px-4 md:px-0">
+    <div className="flex justify-center border-t space-x-4 p-8 px-10 bg-gray-800">
+      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className={iconClass}>
+        <FaFacebookF />
+      </a>
+      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className={iconClass}>
+        <FaTwitter />
+      </a>
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={iconClass}>
+        <FaInstagram />
+      </a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={iconClass}>
+        <FaLinkedinIn />
+      </a>
+      <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className={iconClass}>
+        <FaYoutube />
+      </a>
+    </div>
+      <div className="text-gray-300 text-sm mb-4 md:mb-0">Copyright © 2023 Intervue.io</div>
+      <div className="text-gray-300 text-sm mb-4 md:mb-0">All Rights Reserved</div>
     </div>
   </div>
 );
